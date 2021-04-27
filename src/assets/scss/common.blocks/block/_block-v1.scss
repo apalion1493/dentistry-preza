@@ -1,0 +1,23 @@
+.block-v1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  min-height: 396px;
+}
+
+.block-v1__title {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.block-v1__image {
+  margin-bottom: 35px;
+  margin-top: 30px;
+}

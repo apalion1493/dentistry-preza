@@ -1,0 +1,86 @@
+:root {
+  --bg: #fafafa
+}
+
+html, body {
+  font-family: Roboto, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+}
+
+.app.active:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.77);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.app.active {
+  position: relative;
+  filter: blur(40px);
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.logo-main {
+  background: url("../img/logo-main.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 184px;
+  height: 49px;
+  display: block;
+}
+
+.logo-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.yandex-icon {
+  background: url("../img/yandex-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 62px;
+  height: 25px;
+  display: block;
+}
+
+.btn-gradient {
+  background: linear-gradient(270deg, #ED7E40 0%, #E935B6 100%);
+  color: #FFFFFF;
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1225px;
+  }
+}
+
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+
+}

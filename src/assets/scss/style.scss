@@ -1,0 +1,39 @@
+//LIBRARY
+@import "library.styles/bootstrap/bootstrap";
+@import "node_modules/owl.carousel/src/scss/owl.carousel";
+@import "node_modules/animate.css/animate";
+
+//MIXINS
+@import "common.blocks/utils/mixins";
+
+//VARIABLE
+@import "common.blocks/utils/variable";
+
+//TEXT
+@import "common.blocks/utils/text";
+
+//FONTS
+@import "common.blocks/utils/fonts";
+
+//main styles
+@import "common.blocks/utils/common";
+
+//CONTAINERS
+@import "common.blocks/containers/first-slide";
+@import "common.blocks/containers/write-ToUs";
+@import "common.blocks/containers/menu-modal";
+@import "common.blocks/containers/statistics-section";
+@import "common.blocks/containers/second-slide";
+@import "common.blocks/containers/section-example-advancing";
+@import "common.blocks/containers/write-ToUs__section";
+
+//BLOCKS
+@import "common.blocks/block/burger";
+@import "common.blocks/block/icons";
+@import "common.blocks/block/header";
+@import "common.blocks/block/block-v1";
+@import "common.blocks/block/color-block";
+
+
+
+

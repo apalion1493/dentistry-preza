@@ -1,0 +1,58 @@
+.color-block {
+  background: #FFFFFF;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 28px;
+  height: 57px;
+  padding-left: 30px;
+  padding-right: 32px;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 4px;
+    height: 48px;
+    border-radius: 20px;
+  }
+
+  span {
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #555555;
+  }
+}
+
+.color-block_blue1:before {
+  background: #215FFF;
+}
+
+.color-block_burgundy:before {
+  background: #C21975;
+}
+
+.color-block_azure:before {
+  background: #3CB9FF;
+}
+
+.color-block_red:before {
+  background: #E72467;
+}
+
+.color-block_orange:before {
+  background: #F04B01;
+}
+
+.color-block_yellow:before {
+  background: #FBBC05;
+}

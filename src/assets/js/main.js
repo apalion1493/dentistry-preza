@@ -1,6 +1,8 @@
 import './config/jqueryLoad';
 import 'bootstrap/dist/js/bootstrap.min';
 import 'popper.js/dist/popper.min';
+import "owl.carousel/dist/owl.carousel.min";
+import 'chartist/dist/chartist.min';
 
 $(document).ready(function(){
     $(".anchor--link").on("click", function () {
@@ -25,4 +27,11 @@ $(document).ready(function(){
     $('[data-toggle="popover"]').popover();
     $('[data-toggle="tooltip"]').tooltip();
 
+});
+
+$('.owl-carousel').owlCarousel({
+    margin:27,
+    loop:false,
+    autoWidth:true,
+    items:3
 });

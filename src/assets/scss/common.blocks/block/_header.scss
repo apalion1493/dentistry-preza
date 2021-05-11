@@ -1,3 +1,9 @@
 .header {
   margin-bottom: 132px;
 }
+
+@media (max-width: 767.98px) {
+  .header {
+    margin-bottom: 42px;
+  }
+}

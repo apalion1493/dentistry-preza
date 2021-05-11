@@ -1,3 +1,23 @@
 .statistics {
   background: #F8F7F7;
 }
+
+.statistics__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1033px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767.98px) {
+  .section.statistics {
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
+
+  .statistics__wrapper {
+    justify-content: flex-start;
+  }
+}

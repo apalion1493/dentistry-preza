@@ -21,3 +21,26 @@
   margin-bottom: 35px;
   margin-top: 30px;
 }
+
+@media (max-width: 767.98px)  {
+  .block-v1__title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .block-v1__image {
+    margin-top: 24px;
+    margin-bottom: 20px;
+  }
+
+  .block-v1 {
+    min-height: 287px;
+    padding-bottom: 22px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .block-v1__image img {
+    width: 183px;
+  }
+}

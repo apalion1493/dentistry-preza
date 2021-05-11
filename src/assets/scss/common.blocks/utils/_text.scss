@@ -42,6 +42,19 @@ h4, .h4 {
   font-weight: 900 !important;
 }
 
+@media (max-width: 1199.98px) {
+  h1, .h1 {
+    font-size:3rem;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 991.98px) {
+  h1, .h1 {
+    font-size:2rem;
+  }
+}
+
 @media (max-width: 767.98px) {
   h2, .h2 {
     font-size: 1.75rem;
@@ -49,7 +62,17 @@ h4, .h4 {
   }
 
   h1, .h1 {
-    font-size: 2rem;
+    font-size: rem(28px);
+    line-height: normal;
+  }
+
+  h3, .h3 {
+    font-size: rem(24px);
+    line-height: normal;
+  }
+
+  h4, .h4 {
+    font-size: rem(20px);
     line-height: normal;
   }
 

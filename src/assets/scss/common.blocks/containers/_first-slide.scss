@@ -2,6 +2,23 @@
   background: linear-gradient(249.75deg, #0FCDF5 -11.27%, #3A8BD5 100%);
   padding-top: 42px;
   padding-bottom: 91px;
+  position: relative;
+  overflow: hidden;
+
+  .container {
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      background: url("../img/bg-circle.svg") no-repeat center;
+      background-size: 100% auto;
+      width: 1417px;
+      height: 1194px;
+      top: -64px;
+      left: 118px;
+    }
+  }
 }
 
 .main-img {
@@ -10,4 +27,43 @@
   height: 508px;
   right: 0;
   top: -63px;
+}
+
+.first-slide__image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.first-slide__title {
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 1240px) {
+  .main-img {
+    left: 0;
+    right: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .main-img {
+    position: relative;
+    top: 0;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    margin-bottom: 21px;
+  }
+
+  .section.first-slide {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+    .container:before {
+      display: none;
+    }
+  }
 }

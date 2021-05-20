@@ -65,12 +65,18 @@
   background: #424AFD;
 }
 
-.color-circle-1 {
-  background: #d70206;
+
+
+.color-circle-1,
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+  background: #55DB7A;
+  stroke: #55DB7A;
 }
 
-.color-circle-2 {
-  background: #f05b4f;
+.color-circle-2,
+.ct-series-b .ct-bar, .ct-series-b .ct-line, .ct-series-b .ct-point, .ct-series-b .ct-slice-donut {
+  background: #30A2F5;
+  stroke: #30A2F5;
 }
 
 .color-circle-3 {
